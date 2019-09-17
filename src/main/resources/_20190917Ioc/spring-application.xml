@@ -7,7 +7,7 @@
     <bean id="personService" class="com.springboot.hello._20190917Ioc._01注册bean.PersonSerivceImpl"/>
 
     <!--    xml文件bean 属性赋值     -->
-    <bean id="car"  class="com.springboot.hello._20190917Ioc._02赋值bean.Car">
+    <bean id="car" class="com.springboot.hello._20190917Ioc._02赋值bean.Car">
         <property name="name" value="redCar"/>
     </bean>
 </beans>
