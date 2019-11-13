@@ -1,4 +1,4 @@
-package com.springboot.hello._20191112访问控制权与Import;
+package com.springboot.hello._20191112访问控制权与Import._20191112Import命名空间;
 
 import org.junit.jupiter.api.Test;
 
@@ -21,7 +21,7 @@ public class ImportApp {
     //非同包下User
     @Test
     public void importWithNoPackageFuc(){
-        com.springboot.hello._20191112访问控制权与Import.extend.User  user  =
-                new com.springboot.hello._20191112访问控制权与Import.extend.User();
+        com.springboot.hello._20191112访问控制权与Import._20191112Import命名空间.extend.User  user  =
+                new com.springboot.hello._20191112访问控制权与Import._20191112Import命名空间.extend.User();
     }
 }
