@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    xml文件bean注入     -->
+    <bean id="userService" class="com.springboot.hello._20190917Ioc._01注册bean._20200103读取xml文件.UserServiceImpl"/>
+</beans>
