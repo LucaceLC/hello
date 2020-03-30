@@ -1,6 +1,6 @@
 package com.springboot.hello._20200328注解与反射._032802反射获取的类的类型;
 
-import com.springboot.hello._20200328注解与反射._032801自定义注解.MyField;
+import com.springboot.hello._20200328注解与反射._0328自定义注解.MyField;
 import org.junit.jupiter.api.Test;
 
 public class App {
