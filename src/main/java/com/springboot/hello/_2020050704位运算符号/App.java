@@ -9,7 +9,7 @@ public class App {
     public void bitOperation() {
         /**
          * 位运算
-         *  &  |  ～  >>  <<
+         *  &  |  ～  >>  <<  ^
          *
          * 原码 反码 补码
          *
@@ -27,11 +27,12 @@ public class App {
          *    1111 1111 1111 1111 1111 1111 1111 1011  -5的二进制表示
          *    0000 0000 0000 0000 0000 0000 0000 0100
          */
-        Assertions.assertEquals(1 ,a& b);
-        Assertions.assertEquals(7,a | b);
-        Assertions.assertEquals(4,~c);
-        Assertions.assertEquals(2,a>>1);
-        Assertions.assertEquals(6,b<<1);
+        Assertions.assertEquals(1, a & b);
+        Assertions.assertEquals(7, a | b);
+        Assertions.assertEquals(6, a ^ b);
+        Assertions.assertEquals(4, ~c);
+        Assertions.assertEquals(2, a >> 1);
+        Assertions.assertEquals(6, b << 1);
     }
 
 }
