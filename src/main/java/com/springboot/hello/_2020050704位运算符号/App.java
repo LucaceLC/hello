@@ -33,6 +33,8 @@ public class App {
         Assertions.assertEquals(4, ~c);
         Assertions.assertEquals(2, a >> 1);
         Assertions.assertEquals(6, b << 1);
+        Assertions.assertEquals(63, c >>> 26); //无符号又移动
+
     }
 
 }
