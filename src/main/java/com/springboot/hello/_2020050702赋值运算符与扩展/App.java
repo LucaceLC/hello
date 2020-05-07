@@ -14,10 +14,10 @@ public class App {
          */
         int a = 3;
         int b = 2;
-        b*= 3;
+        b*= 3; // b = b*3
         Assertions.assertEquals(6,b);
 
-        a += b+3;
+        a += b+3;  // a = a + (b+3) 右边优先计算
         Assertions.assertEquals(12,a);
     }
 }
