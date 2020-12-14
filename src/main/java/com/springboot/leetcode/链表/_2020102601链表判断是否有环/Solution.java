@@ -39,6 +39,7 @@ public class Solution {
         ListNode fast = head;
         ListNode slow = head;
         do {
+
             //判断前面的兔子有没有走到头，走到头，跳出循环
             if (fast == null || fast.next == null) {
                 return false;
@@ -77,3 +78,27 @@ class ListNode{
         next = null;
     }
 }
+
+class Test{
+
+    //20201028
+    public boolean hasCycleWithFastSlow(ListNode listNode){
+        //龟兔赛跑
+        if(listNode == null || listNode.next == null) return false;
+
+        //同时起跑
+        ListNode faste = listNode;
+        ListNode solw = listNode;
+
+        do {
+            //判断兔子
+            if(faste == null || faste.next == null){
+                solw = solw.next;
+                faste = faste.next.next;
+            }
+
+        }while (faste != solw);
+        return true;
+    }
+}
+
