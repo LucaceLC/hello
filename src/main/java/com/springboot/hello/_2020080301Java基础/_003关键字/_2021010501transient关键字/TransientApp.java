@@ -8,7 +8,7 @@ import java.io.*;
 public class TransientApp {
 
     /**
-     * transient关键字：被修饰的成员变量不能被序列化，前提是类实现序列化接口
+     * transient关键字：被修饰的成员变量不能被序列化，前提是类实现序列化接口，没实现会报错，java.io.NotSerializableException
      *                静态变量从属于类，无论是否修饰transient，都不会被序列化
      *
      *  场景：序列化，网络传输
