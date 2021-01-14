@@ -4,7 +4,7 @@ import lombok.SneakyThrows;
 
 public class 正确的等待唤醒生产者消费者测试 {
 
-    //todo 应使用
+    //todo 应使用while循环判断wait条件
     public static void main(String[] args) {
         NoClerk clerk = new NoClerk();
         ProducerRunnable producerRunnable = new ProducerRunnable(clerk);
