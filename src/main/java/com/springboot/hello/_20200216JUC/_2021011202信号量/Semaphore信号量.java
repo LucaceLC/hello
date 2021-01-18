@@ -10,9 +10,9 @@ public class Semaphore信号量 {
 
     public static void main(String[] args) {
         /**
-         * 信号量，什么是信号量
+         * 信号量，什么是信号量 Semaphore （sem for）
          *
-         * 场景：多个任务抢夺有限资源，抢占执行
+         * 场景：多个线程抢夺有限资源，抢占执行
          *      指定同时操作每个任务的数量
          *      实现资源池
          */
