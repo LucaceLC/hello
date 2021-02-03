@@ -13,6 +13,7 @@ public class App {
             result = result * 10 + x % 10;
             x /= 10;
         }
+        //数据类型溢出，或者使用result >= Integer.MIN_VALUE && result <=Integer.MAX_VALUE 判断
         return  (int) result == result ? (int) result : 0;
     }
 }
