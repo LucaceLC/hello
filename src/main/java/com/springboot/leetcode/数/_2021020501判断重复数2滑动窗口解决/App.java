@@ -1,4 +1,4 @@
-package com.springboot.leetcode.数._2021020501判断重复数2;
+package com.springboot.leetcode.数._2021020501判断重复数2滑动窗口解决;
 
 import java.util.HashSet;
 import java.util.Set;
