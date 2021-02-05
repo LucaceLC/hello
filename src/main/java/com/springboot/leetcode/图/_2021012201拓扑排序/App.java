@@ -9,7 +9,7 @@ public class App {
 
         /**
          * 什么是拓扑排序，
-         * 针对的无环Character.isLetterOrDigit向图
+         * 针对的无环向图
          *     核心点：顶点
          *            边
          *            出度，入度

@@ -16,6 +16,7 @@ public class App {
     public void flatten(TreeNode root){
         flatten(root.rigth);
         flatten(root.left);
+
         root.rigth = last;
         root.left = null;
         last = root;

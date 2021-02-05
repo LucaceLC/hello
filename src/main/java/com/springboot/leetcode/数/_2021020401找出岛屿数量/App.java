@@ -28,14 +28,14 @@ public class App {
                 if('1'==grid[i][j]){
                     result++;
                     //todo 深度遍历
-                    differ(grid,i,j);
+                    dfs(grid,i,j);
                 }
             }
         }
         return result;
     }
 
-    private void differ(char[][] grid, int i, int j) {
+    private void dfs(char[][] grid, int i, int j) {
         //退出条件 i,j小于0 ，i,j大于等于边界值，如果遍历到的节点本身急事0，不需要置换
         if(i<0 || j<0|| i>=row || j>=column || grid[i][j] =='0') return;
         /**
@@ -43,9 +43,9 @@ public class App {
          */
         grid[i][j] = '0';
         //上下左右
-        differ(grid,i-1,j);
-        differ(grid,i+1,j);
-        differ(grid,i,j-1);
-        differ(grid,i,j+1);
+        dfs(grid,i-1,j);
+        dfs(grid,i+1,j);
+        dfs(grid,i,j-1);
+        dfs(grid,i,j+1);
     }
 }
