@@ -36,7 +36,7 @@ public class App {
     }
 
     private void dfs(char[][] grid, int i, int j) {
-        //退出条件 i,j小于0 ，i,j大于等于边界值，如果遍历到的节点本身急事0，不需要置换
+        //退出条件 i,j小于0 ，i,j大于等于边界值，如果遍历到的节点本身急==0，不需要置换
         if(i<0 || j<0|| i>=row || j>=column || grid[i][j] =='0') return;
         /**
          * 首先自身变为0
