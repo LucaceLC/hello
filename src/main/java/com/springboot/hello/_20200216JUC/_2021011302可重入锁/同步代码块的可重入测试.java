@@ -5,11 +5,11 @@ public class 同步代码块的可重入测试 {
 
     public static void m1(){
        synchronized (lockObject){
-           System.out.printf(Thread.currentThread().getName() + "==外");
+           System.out.println(Thread.currentThread().getName() + "==外");
            synchronized (lockObject){
-               System.out.printf(Thread.currentThread().getName() + "==中");
+               System.out.println(Thread.currentThread().getName() + "==中");
                synchronized (lockObject){
-                   System.out.printf(Thread.currentThread().getName() + "==内");
+                   System.out.println(Thread.currentThread().getName() + "==内");
                }
            }
        }
