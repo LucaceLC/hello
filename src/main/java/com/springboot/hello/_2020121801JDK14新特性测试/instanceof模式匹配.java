@@ -26,17 +26,18 @@ public class instanceof模式匹配 {
 
 
     private void jdk14(){
-        Object obj = new String("hello world");
-        if(obj instanceof String str){
-            System.out.println("String:"+str);
-        }else {
-            System.out.println("其他类型");
-        }
+//        Object obj = new String("hello world");
+//        if(obj instanceof String str){
+//            System.out.println("String:"+str);
+//        }else {
+//            System.out.println("其他类型");
+//        }
     }
 
     private Boolean jdk14Boolean(Object obj){
-        boolean result = obj instanceof String str && !StringUtils.isEmpty(str);
-        System.out.println(result);
-        return result;
+//        boolean result = obj instanceof String str && !StringUtils.isEmpty(str);
+//        System.out.println(result);
+//        return result;
+        return false;
     }
 }
