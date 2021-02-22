@@ -21,7 +21,7 @@ public class _03锁关键唤醒先于等待_造成线程一直阻塞 {
             synchronized (lockObject){
                 System.out.println(Thread.currentThread().getName()+"--in");
                 try {
-                    System.out.println(Thread.currentThread().getName()+"--等待中");
+                    System.out.println(Thread.currentThread().getName()+"--一直等待中");
                     lockObject.wait();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
