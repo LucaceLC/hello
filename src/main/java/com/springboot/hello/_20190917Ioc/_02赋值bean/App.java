@@ -1,7 +1,6 @@
 package com.springboot.hello._20190917Ioc._02赋值bean;
 
 import com.springboot.hello._20190917Ioc._00Constant.SpringConstants;
-import com.springboot.hello._20190917Ioc._01注册bean.PersonService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

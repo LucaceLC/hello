@@ -5,5 +5,6 @@
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--    xml文件bean注入     -->
+    <!--    Ioc 对象的创建交给Spring控制     -->
     <bean id="userService" class="com.springboot.hello._20190917Ioc._01注册bean._20200103读取xml文件.UserServiceImpl"/>
 </beans>
