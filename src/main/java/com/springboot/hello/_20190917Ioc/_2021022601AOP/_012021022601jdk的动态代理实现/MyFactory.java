@@ -19,6 +19,7 @@ public class MyFactory {
          * 参数2，目标类的所有接口
          * 参数3，invocationHandler处理器对象
          */
+
         Object proxyInstance = Proxy.newProxyInstance(this.getClass().getClassLoader(), userService.getClass().getInterfaces(), new InvocationHandler() {
 
             /**
