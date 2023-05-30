@@ -2,6 +2,7 @@ package com.springboot.hello._2023053001MQ._2023053004MQ的消息丢失问题;
 
 public class APP {
     /**
+     * rabbit mq
      * 如果保证mq消息不丢失，
      * 消息丢失会出现在哪些环节，消息生成者，消息中间件本身，消息消费者
      *
@@ -18,5 +19,16 @@ public class APP {
      * 消息消费方
      * 关闭自动ack，手动ack，确保业务逻辑处理完成后，ack应答
      *
+     */
+
+    /**
+     * kafka的消息丢失问题
+     *
+     * kafka本身，保证topic的parition至少有2个副本，即至少一个leader一个follower
+     * 要保证leader和follower保持正常通信
+     * acks=all，保证所有副本同步完成才送发送成功，否则保持重试
+     *
+     *
+     * 关闭自动提交offset，保证业务逻辑处理完成然后进行手动offset
      */
 }
