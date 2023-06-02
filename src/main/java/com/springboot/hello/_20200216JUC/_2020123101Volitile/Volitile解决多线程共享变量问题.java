@@ -32,6 +32,9 @@ class VolatileThreadDemo implements Runnable {
      *
      * 不具备加锁的互斥性
      * 也不具备原子性，仍然存在线程安全问题
+     *
+     * volatile只保证了可见性，不能保证线程安全
+     *
      */
     private volatile Boolean flag = false;
 
