@@ -3,6 +3,7 @@ package com.springboot.hello._2023060501互联网高并发设计题._2023060601�
 public class App {
     /**
      *
+     * @see
      * 分库分表解决的问题是，mysql的大规模数据问题，单表超过千万
      *
      * 分库分表的常用规则有，
