@@ -1,4 +1,4 @@
-package com.springboot.hello._2020080301Java基础._002标识符;
+package com.springboot.hello._2023060601Java基础._002标识符;
 
 public class JavaName {
 
