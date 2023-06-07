@@ -1,4 +1,4 @@
-package com.springboot.hello._2023060501互联网高并发设计题._2023060701如何设计一个扫码登陆;
+package com.springboot.hello._2023060501互联网高并发设计题._2023060701如何设计一个扫码登陆._2023060101扫码登陆;
 
 public class App {
     /**
