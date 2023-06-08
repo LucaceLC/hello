@@ -47,7 +47,8 @@ public class App {
 
         //直接操作属性,getField只能获取公有属性
         User defaultUser3 = (User)userClazz.newInstance();
-        Field userNameField = userClazz.getDeclaredField("userName");
+        Field userNameField =
+                userClazz.getDeclaredField("userName");
         userNameField.setAccessible(true);
         userNameField.set(defaultUser3,"jack3");
         System.out.println(defaultUser3);
