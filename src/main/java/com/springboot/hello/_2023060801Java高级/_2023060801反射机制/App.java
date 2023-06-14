@@ -1,4 +1,4 @@
-package com.springboot.hello._2023060801Java高级._20230608反射机制;
+package com.springboot.hello._2023060801Java高级._2023060801反射机制;
 
 public class App {
     /**
