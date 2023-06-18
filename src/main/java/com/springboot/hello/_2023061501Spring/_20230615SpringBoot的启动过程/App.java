@@ -4,11 +4,13 @@ public class App {
     /**
      * Springboot启动过程
      *
-     * 1调用有@SpringBootApplication注解的启动类的main方法，启动应用程序。
+     * 1、找到SpringBootApplication注解的启动类的main方法，启动程序
+     * 2、
+     *
      * 2通过调用SpringApplication类的run方法构建SpringApplication对象，并进行以下初始化操作：
      *      2.1 如果primarySources不为空，将启动类赋值给primarySources对象。
      *      2.2 从classpath类路径推断Web应用类型，有三种类型：NONE、SERVLET、REACTIVE。
-     *      2.3 初始化bootstrapRegistryInitializers，获取BootstrapRegistryInitializer接口的实例对象列表。
+     *      2.3 初始化bootstrapRegistryInitializers，获取BootstrapRegistryI0nitializer接口的实例对象列表。
      *      2.4 初始化ApplicationContextInitializer集合，获取ApplicationContextInitializer接口的实例对象列表。
      *      2.5 初始化ApplicationListener集合，获取ApplicationListener接口的实例对象列表。
      *      2.6 获取StackTraceElement数组，并通过反射获取堆栈中具有main方法的类。
