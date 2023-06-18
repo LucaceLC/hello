@@ -1,4 +1,4 @@
-package com.springboot.hello._2021022801集合;
+package com.springboot.hello._2023060801Java高级._2023061602集合;
 
 public class App {
     /**
@@ -8,7 +8,7 @@ public class App {
      *     一个是以Collection为核心接口的集合
      *     一个是以Map为核心的接口集合
      *
-     *     Collection继承Iterable迭代器，collection集合以次为基础遍历
+     *     Collection继承Iterable迭代器，collection集合以此   为基础遍历
      *
      *     Collection包含集合
      *     List:有序，可重复
@@ -47,4 +47,5 @@ public class App {
      *          线程安全利用syned关键字和CAS操作保证，性能更高
      *     HashTable是锁整个数组
      */
+
 }
